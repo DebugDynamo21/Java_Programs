@@ -17,3 +17,5 @@ class Geeks{
         g1.display();
     }
 }
+//If we want to initialize fields of the class with our own values,
+// then use a parameterized constructor.
