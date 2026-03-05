@@ -18,3 +18,7 @@ public class Main {
         System.out.println("Student name: " + s1.name);
     }
 }
+
+// This code defines a Student class as a blueprint with data members and 
+// a constructor to initialize them. An object s1 is created in main(), which 
+// allocates memory and accesses the class fields to display values.
