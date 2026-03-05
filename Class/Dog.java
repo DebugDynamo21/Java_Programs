@@ -31,3 +31,9 @@ public class Dog {
     }
 
 }
+
+//This creates a Dog object named tuffy using the Dog constructor inside main(), 
+// which initializes name, breed, age, and color. When System.out.println(tuffy) 
+// is executed, the overridden toString() method is called to display the object’s 
+// data.
+
