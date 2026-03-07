@@ -4,12 +4,15 @@ package OOPs.Abstraction.AbstractClass;
 abstract class Shape{
     String color;
 
+    //Constructor
     Shape(String color){
         this.color = color;
     }
-
+    
+    //Abstract Method
     abstract double area();
 
+    // Concrete Method
     void getColor(){
         System.out.println("Color: " + color);
     }
