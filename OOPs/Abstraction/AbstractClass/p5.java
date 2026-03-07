@@ -5,9 +5,9 @@
 
 package OOPs.Abstraction.AbstractClass;
 
-abstract class Base{
+abstract class Base1{
     //Constructor of class 1
-    Base(){
+    Base1(){
         System.out.println("Base constructor called");
     }
 
@@ -15,8 +15,8 @@ abstract class Base{
 }
 
 //class 2
-class Derived extends Base{
-    Derived(){  //constructor of class 2
+class Derived1 extends Base1{
+    Derived1(){  //constructor of class 2
         System.out.println("Derived Constructor called");
     }
     
