@@ -30,7 +30,7 @@ class Derived1 extends Base1{
 class p5 {
     public static void main(String[] args){
         //Creating obj of class2 inside main() method
-        Derived d = new Derived();
+        Derived1 d = new Derived1();
         d.fun();
     }
 }
